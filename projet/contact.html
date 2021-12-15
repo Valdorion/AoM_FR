@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        AoM-FR Contact
+    </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/png" href="img/logoSite.png"/>
+    <!--<meta name="viewport" content="width=device-width initial-scale=1.0">    ca casse tout donc elle est là sans être là-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <!--Police de caractère originale du jeu-->
+</head>
+
+<body>
+    <header id="header">
+        <div class="site-brand">
+            <a href="index.html">
+                <img id="site-logo" width="512" height="512" src="img/logoSite.png" alt="Logo Age of Mythology">
+            </a>
+            <a class="nav-link" href="index.html">
+                <span>AGE OF MYTHOLOGY</span>
+            </a>
+        </div>
+        <nav id="navbar" role="navigation">
+            <ul>
+                <li>
+                    <a class="nav-link" href="index.html">
+                        ACCUEIL
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="classic-civilisation.html">
+                        LES CLASSIQUES
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="contact.html">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home-form">
+            <div class="container">
+                <form action="?" method="POST">
+                    <p>
+                        <label for="first_name">Prénom :</label>
+                        <input class="form-control" type="text" id="first_name" name="first_name" maxlength="50"
+                            placeholder="Quentin" value="" required="">
+                    </p>
+                    <p>
+                        <label for="last_name">Nom :</label>
+                        <input class="form-control" type="text" id="last_name" name="last_name" maxlength="50"
+                            placeholder="KASIMIRCZAK" value="" required="">
+                    </p>
+                    <p>
+                        <label for="email">Email :</label>
+                        <input class="form-control" type="email" id="email" name="email" maxlength="255"
+                            placeholder="prenom.nom@gmail.com" value="" required="">
+                    </p>
+                    <p>
+                        <label for="subject">Sujet :</label>
+                        <input class="form-control" type="text" id="subject" name="subject" maxlength="255"
+                            placeholder="Question" value="" required="">
+                    </p>
+                    <p>
+                        <label for="body">Texte :</label>
+                        <textarea class="form-control" id="body" name="body" rows="5" required=""></textarea>
+                    </p>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-social-links">
+                <span class="footer-subtitle">
+                    Liens externes
+                </span>
+                <nav class="footer-navbar">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a class="nav-link" href="https://www.youtube.com/channel/UCZvsJ0QT9x-o9hz9y2OhOfA"
+                                title="Youtube officiel d'AoM" target="_bank" rel="noopener">
+                                <span class="fa-brands fa-youtube"></span>
+                                <span>Youtube</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="https://www.ageofempires.com/"
+                                title="Site officiel d'Age of Empire" target="_bank" rel="noopener">
+                                <img src="img/logoAoM.png" alt="Logo Age of Empires" width="828" height="100">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="https://fr.wikipedia.org/wiki/Age_of_Mythology"
+                                title="Page Wikipédia d'AoM" target="_bank" rel="noopener">
+                                <span class="fa-brands fa-wikipedia-w"></span>
+                                <span>ikipédia</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-information">
+                <span class="footer-subtitle">
+                    Informations
+                </span>
+                <nav class="footer-navbar">
+                    <ul class="navbar-navbar">
+                        <li>
+                            <a class="nav-link" href="contact.html">
+                                Nous contacter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="doc/cgu.pdf" target="_blank">
+                                Conditions générales d'utilisation
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <span>
+                    © copyright 2021 | site créé par KASIMIRCZAK Quentin
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
